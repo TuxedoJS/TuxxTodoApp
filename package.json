@@ -1,0 +1,41 @@
+{
+  "name": "TuxTodoApp",
+  "version": "0.0.1",
+  "description": "Example TuxTodoApp built using Tux",
+  "main": "index.js",
+  "scripts": {
+      "start": "watchify -d TuxTodoApp.js -o bundle.js -v",
+      "build": "NODE_ENV=production browserify TuxTodoApp.js | uglifyjs -cm > bundle.js"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ],
+      "envify"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TuxedoJS/TuxTodoApp"
+  },
+  "keywords": [
+    "Tux",
+    "TuxTodoApp"
+  ],
+  "author": "drabinowitz, cheerazar, plauer, sjstebbins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TuxedoJS/TuxTodoApp/issues"
+  },
+  "homepage": "https://github.com/TuxedoJS/TuxTodoApp",
+  "dependencies": {
+    "browserify": "^8.0.2",
+    "envify": "^3.2.0",
+    "reactify": "^0.17.1",
+    "watchify": "^2.2.1"
+  }
+}

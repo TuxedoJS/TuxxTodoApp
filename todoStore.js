@@ -1,4 +1,4 @@
-var ActionStores = require('tux/Stores/ActionStores');
+var ActionStores = require('tuxx/Stores/ActionStores');
 
 var todoStore = ActionStores.createStore({
   _todos: [],
@@ -16,7 +16,15 @@ var todoStore = ActionStores.createStore({
   },
 
   onRemove: function (todo) {
-    this._todos.splice(todo.id, 1);
+    var todos = this._todos;
+    var todosLength = todos.length;
+    var i;
+    for (i = 0; i < todosLength; i++) {
+      if (todos[i] === todo) {
+        delete todos[i];
+        break;
+      }
+    }
     this.emitChange();
   },
 

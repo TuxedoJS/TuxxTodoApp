@@ -1,4 +1,4 @@
-var React = require('tux/React');
+var React = require('tuxx/React');
 var todoActions = require('./todoActions');
 var todoStore = require('./todoStore');
 var Todo = require('./Todo.jsx');

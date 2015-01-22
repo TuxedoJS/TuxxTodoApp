@@ -1,4 +1,4 @@
-var React = require('tux/React');
+var React = require('tuxx/React');
 
 var TodoCreateForm = React.createOwneeClass({
   // nearestOwnerPropTypes allows us to perform prop validation on our nearestOwnerProps

@@ -1,11 +1,11 @@
 {
-  "name": "TuxTodoApp",
+  "name": "TuxxTodoApp",
   "version": "0.0.1",
-  "description": "Example TuxTodoApp built using Tux",
+  "description": "Example TuxxTodoApp built using Tuxx",
   "main": "index.js",
   "scripts": {
-      "start": "watchify -d TuxTodoApp.js -o bundle.js -v",
-      "build": "NODE_ENV=production browserify TuxTodoApp.js | uglifyjs -cm > bundle.js"
+      "start": "watchify -d TuxxTodoApp.js -o bundle.js -v",
+      "build": "NODE_ENV=production browserify TuxxTodoApp.js | uglifyjs -cm > bundle.js"
   },
   "browserify": {
     "transform": [
@@ -20,22 +20,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TuxedoJS/TuxTodoApp"
+    "url": "https://github.com/TuxedoJS/TuxxTodoApp"
   },
   "keywords": [
-    "Tux",
-    "TuxTodoApp"
+    "Tuxx",
+    "TuxxTodoApp"
   ],
   "author": "drabinowitz, cheerazar, plauer, sjstebbins",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TuxedoJS/TuxTodoApp/issues"
+    "url": "https://github.com/TuxedoJS/TuxxTodoApp/issues"
   },
-  "homepage": "https://github.com/TuxedoJS/TuxTodoApp",
+  "homepage": "https://github.com/TuxedoJS/TuxxTodoApp",
   "dependencies": {
     "browserify": "^8.0.2",
     "envify": "^3.2.0",
     "reactify": "^0.17.1",
-    "watchify": "^2.2.1"
+    "watchify": "^2.2.1",
+    "tuxx": "^0.1.0"
   }
 }

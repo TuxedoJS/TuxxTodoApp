@@ -1,4 +1,4 @@
-var Actions = require('tux/Actions');
+var Actions = require('tuxx/Actions');
 
 var todoActions = Actions.createActionCategory({
   category: 'todos',

@@ -1,4 +1,4 @@
-var React = require('tux/React');
+var React = require('tuxx/React');
 
 var Todo = React.createMutableClass({
   // Here we are specifying that on the props object there is key that we want to watch and see if it changes and that we only want to re-render the component when that specified prop value changes

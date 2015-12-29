@@ -1,11 +1,5 @@
-# TuxxTodoApp
+#THIS PROJECT IS INACTIVE#
 
-To get started with the **TuxxTodoApp**:
+This project is no longer maintained.
 
-1. Fork and clone down this repo.
-2. Run `npm install`
-3. Run `npm start` to begin a `watchify` build of the app, which will bundle your JavaScript files automatically whenever they update
-4. Open the `index.html` file in your browser
-5. You're done!
-
-A simple Todo application built on TuxedoJS. Visit the deployed app [here](https://TuxedoJS.github.io/TuxxTodoApp). Visit our docs website [here](http://TuxedoJS.org).
+If you would like to view or download the files switch to the `master` branch. The files are provided as-is with no support.
